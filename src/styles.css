@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+.left-item {
+    float: left;
+    margin: 0 10px;
+}
+.menu-main {
+  margin: 0;
+  padding: 0;
+}
+table {
+        border-collapse: collapse;
+      }
+      td, th {
+        border: 1px solid #98bf21;
+      }
+      th {
+        text-align: left;
+        background-color: #A7C942;
+        color: #fff;
+      }
+      tr:nth-child(odd) { background-color: #EAF2D3; }
+.block {
+       display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+        text-align:center;
+      padding: 40px 80px 0px 80px;
+        }
+.btn {
+    background-color: rgba(255, 255, 255, 0.582);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.829);
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    }
+.btn:active {
+  background-color: rgba(9, 255, 0, 0.829);
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+}

@@ -1,13 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <title>1o</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>Проект Андрей</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-  <app-root></app-root>
+  <div class="parent">
+  <div class="block">
+  <h1 name="name">Проект "Проект"</h1></div>
+<div class="block"><nav>
+<ul class="menu-main">
+<li class="left-item"><a href="#main">Главная</a></li>
+<li class="left-item"><a href="#statistics">Статистика</a></li>
+<li class="left-item"><a href="#form">Форма обратной связи</a></li>
+</ul>
+</nav></div>
+<a name="main"></a>
+<div class="block"><label class="main-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, minima magnam possimus laborum exercitationem omnis dolorum dolorem rem aliquam! Nisi aut illum, fuga ducimus praesentium veritatis enim quisquam fugiat eius.</label></div>
+<a name="statistics"></a>
+<div class="block"><table>
+  <tr><th>Неделя</th><th>Выполненная задача</th></tr>
+  <tr><td>Первая</td><td>Выбрана тема проекта</td></tr>
+  <tr><td>Вторая</td><td>Был создан проект</td></tr>
+  <tr><td>Третья</td><td>Проект был написан</td></tr>
+  <tr><td>Четвертая</td><td>Проект успешно сдан</td></tr>
+</table></div>
+<a name="form"></a>
+<div class="block"><class="form">
+<fieldset>
+<legend>Форма обратной связи</legend>
+<label> Ваше имя: <input type="text" placeholder="Имя"></input></label><br>
+<label> Ваш телефон: <input type="number" placeholder="Телефон"></input></label><br>
+<label>Текст сообщения:</label><br>
+<label><textarea placeholder="Введите ваше сообщение"></textarea><label><br>
+<label>Кому отправить - 
+<select>
+<option>Учителю</option>
+<option>Секретарю</option>
+<option>Директору</option>
+</select></label><br>
+<label><button class="btn">Отправить</button></label>
+</fieldset>
+</form></div>
+</div>
 </body>
 </html>
